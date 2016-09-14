@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>23300</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">Low quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Landscape</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">NW.js</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Bubu" sid="905268629645337">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="240156454811167" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.484375">
+                        <collision-poly>
+                            <point x="0.109375" y="0.109375" />
+                            <point x="0.5" y="0.15625" />
+                            <point x="0.984375" y="0.5" />
+                            <point x="0.5" y="0.984375" />
+                            <point x="0.046875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ply_pulso" sid="869201181809007">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="786194783140409">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="835247754048649" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.203125" y="0.101563" />
+                            <point x="0.78125" y="0.21875" />
+                            <point x="0.835938" y="0.5" />
+                            <point x="0.84375" y="0.976563" />
+                            <point x="0.164063" y="0.945313" />
+                            <point x="0.164063" y="0.476563" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="plat_1" sid="127781201080046">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="533693885310118">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="333741539374564" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.329268" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Pulso" sid="983516308868846">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="133822174582750">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="651252082130941">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="753347376703395" speed="5">
+                    <frame duration="1" hotspotX="0.53" hotspotY="0.519481">
+                        <collision-poly>
+                            <point x="0.219626" y="0.141844" />
+                            <point x="0.785047" y="0.0496454" />
+                            <point x="0.995327" y="0.524823" />
+                            <point x="0.724299" y="0.907801" />
+                            <point x="0.214953" y="0.914894" />
+                            <point x="0.102804" y="0.524823" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="159489276620660">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Text" sid="184057594648099">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="plat_2" sid="571005828946190">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="948930829304709">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type name="AntiPulso" sid="102526654953889">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="876474131893744">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="171908415341420">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="392539486387135" speed="5">
+                    <frame duration="1" hotspotX="0.53" hotspotY="0.519481">
+                        <collision-poly>
+                            <point x="0.219626" y="0.141844" />
+                            <point x="0.785047" y="0.0496454" />
+                            <point x="0.995327" y="0.524823" />
+                            <point x="0.724299" y="0.907801" />
+                            <point x="0.214953" y="0.914894" />
+                            <point x="0.102804" y="0.524823" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families>
+        <family name="Enemigos" plugin-id="Sprite" sid="413241246855906">
+            <members>
+                <member>Bubu</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="speed" sid="974772118372632" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Platform2" sid="558022204847921">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="Personajes" plugin-id="Sprite" sid="840734498895679">
+            <members>
+                <member>ply_pulso</member>
+            </members>
+        </family>
+    </families>
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="5" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
