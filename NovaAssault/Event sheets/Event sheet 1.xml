@@ -12,6 +12,12 @@
                 <action id="0" name="Set text" sid="787355196693208" type="Text">
                     <param id="0" name="Text">&quot;Pulso: &quot;&amp;medidorPulso</param>
                 </action>
+                <action id="-5" name="Scroll to X" sid="549440427975321" type="System">
+                    <param id="0" name="X">Personajes.X+100</param>
+                </action>
+                <action id="-6" name="Scroll to Y" sid="397689157334445" type="System">
+                    <param id="0" name="Y">Personajes.Y-100</param>
+                </action>
             </actions>
         </event-block>
         <comment>El juego será para Joystick (de Xbox preferentemente, pero para el prototipo lo adaptaremos a teclado)</comment>
@@ -212,7 +218,7 @@
                 </condition>
                 <condition behavior="Bullet" id="1" name="Compare distance travelled" sid="162873751348501" type="Pulso">
                     <param id="0" name="Comparison">5</param>
-                    <param id="1" name="Distance">600</param>
+                    <param id="1" name="Distance">480</param>
                 </condition>
             </conditions>
             <actions>
@@ -320,7 +326,7 @@
                             </conditions>
                             <actions>
                                 <action id="-1" name="Set X" sid="825633332857987" type="Enemigos">
-                                    <param id="0" name="X">Enemigos.X + Enemigos.speed +3</param>
+                                    <param id="0" name="X">Enemigos.X + Enemigos.speed +7</param>
                                 </action>
                                 <action id="7" name="Set mirrored" sid="130952105604880" type="Enemigos">
                                     <param id="0" name="State">0</param>
@@ -337,7 +343,7 @@
                             </conditions>
                             <actions>
                                 <action id="-1" name="Set X" sid="760354572531915" type="Enemigos">
-                                    <param id="0" name="X">Enemigos.X - Enemigos.speed + 3</param>
+                                    <param id="0" name="X">Enemigos.X - Enemigos.speed -7</param>
                                 </action>
                                 <action id="7" name="Set mirrored" sid="228853105304201" type="Enemigos">
                                     <param id="0" name="State">1</param>
@@ -354,7 +360,7 @@
                             </conditions>
                             <actions>
                                 <action id="-2" name="Set Y" sid="226767005236703" type="Enemigos">
-                                    <param id="0" name="Y">Enemigos.Y + Enemigos.speed +1</param>
+                                    <param id="0" name="Y">Enemigos.Y + Enemigos.speed +4</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -368,7 +374,7 @@
                             </conditions>
                             <actions>
                                 <action id="-2" name="Set Y" sid="328170504374792" type="Enemigos">
-                                    <param id="0" name="Y">Enemigos.Y-Enemigos.speed-1</param>
+                                    <param id="0" name="Y">Enemigos.Y-Enemigos.speed-4</param>
                                 </action>
                             </actions>
                         </event-block>

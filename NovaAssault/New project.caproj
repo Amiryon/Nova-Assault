@@ -163,6 +163,9 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Text2" sid="381773622868749">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families>
         <family name="Enemigos" plugin-id="Sprite" sid="413241246855906">
