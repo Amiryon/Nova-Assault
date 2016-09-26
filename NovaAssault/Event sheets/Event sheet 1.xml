@@ -10,7 +10,7 @@
             </conditions>
             <actions>
                 <action id="0" name="Set text" sid="787355196693208" type="Text">
-                    <param id="0" name="Text">&quot;Pulso: &quot;&amp;medidorPulso</param>
+                    <param id="0" name="Text">&quot;Pulso: &quot;&amp;3-medidorPulso&amp;&quot;s&quot;</param>
                 </action>
                 <action id="-5" name="Scroll to X" sid="549440427975321" type="System">
                     <param id="0" name="X">Personajes.X+100</param>
@@ -449,9 +449,29 @@
                         <action behavior="Platform2" id="7" name="Simulate control" sid="956230576872203" type="Enemigos">
                             <param id="0" name="Control">2</param>
                         </action>
+                        <action id="-3" name="Create object" sid="897913758895687" type="System">
+                            <param id="0" name="Object to create">wena</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">Enemigos.X</param>
+                            <param id="3" name="Y">Enemigos.Y-50</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="155532998923039">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="450184957021213" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Menu</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="475591981551421" type="System">
+                    <param id="0" name="Layout">Portada</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>
